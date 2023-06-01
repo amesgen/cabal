@@ -4,6 +4,7 @@ on:
   push:
     branches:
     - master
+    - dont-override-if-all-deprecated-ci
     paths:
     - 'changelog.d/*'
     - '.github/workflows/changelogs.yml'

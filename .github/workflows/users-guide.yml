@@ -11,6 +11,7 @@ on:
   push:
     branches:
     - master
+    - dont-override-if-all-deprecated-ci
     paths:
     - 'doc/Makefile'
     - 'doc/pyproject.toml'
